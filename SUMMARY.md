@@ -8,4 +8,6 @@
 * [NodeJS服务器Demo](NodeJS服务器Demo.md)
 * [Vue](Vue/常用语法.md)
     * [组件](Vue/组件.md)
+    * [自定义指令](Vue/自定义指令.md)
+    * [路由](Vue/路由.md)
 
