@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>This is my title</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            // 第一种写法：!!
+            !!function(a, b) {
+                var c = a +  b;
+                alert(c);
+            }(3, 4);
+
+            // 第二种写法：全包
+            (function(a, b) {
+                var c = a = b;
+                alert(c);
+            }(7, 3));
+
+            // 第三种写法：只包函数值
+            (function(a, b) {
+                var c = a * b;
+                alert(c);
+            })(3, 4);
+
+        </script>
+    </body>
+</html>

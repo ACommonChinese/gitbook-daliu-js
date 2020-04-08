@@ -1,0 +1,885 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>常用语法 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="组件.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../词法解构.html">
+            
+                <a href="../词法解构.html">
+            
+                    
+                    词法结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../备记语法.html">
+            
+                <a href="../备记语法.html">
+            
+                    
+                    备记语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../常见的POST方式.html">
+            
+                <a href="../常见的POST方式.html">
+            
+                    
+                    常见的POST方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../NodeJS服务器搭建.html">
+            
+                <a href="../NodeJS服务器搭建.html">
+            
+                    
+                    NodeJS服务器搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../NodeJS服务器Demo.html">
+            
+                <a href="../NodeJS服务器Demo.html">
+            
+                    
+                    NodeJS服务器Demo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.7.1" data-path="常用语法.html">
+            
+                <a href="常用语法.html">
+            
+                    
+                    常用语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="组件.html">
+            
+                <a href="组件.html">
+            
+                    
+                    组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="自定义指令.html">
+            
+                <a href="自定义指令.html">
+            
+                    
+                    自定义指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="路由.html">
+            
+                <a href="路由.html">
+            
+                    
+                    路由
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="脚手架.html">
+            
+                <a href="脚手架.html">
+            
+                    
+                    脚手架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../CSS/">
+            
+                <a href="../CSS/">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../CSS/常用备记.html">
+            
+                <a href="../CSS/常用备记.html">
+            
+                    
+                    常用备记
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >常用语法</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="vue&#x5E38;&#x7528;&#x8BED;&#x6CD5;">Vue&#x5E38;&#x7528;&#x8BED;&#x6CD5;</h1>
+<pre><code class="lang-javascript"> &lt;p&gt;{{ message }}&lt;/p&gt; // &#x4F7F;&#x7528;vue&#x4E2D;&#x7684;message, &#x8FD9;&#x88AB;&#x79F0;&#x4E3A;Mustache (&#x53CC;&#x5927;&#x62EC;&#x53F7;&#x5199;&#x6CD5;)
+
+ &lt;span v-bind:title=&quot;message&quot;&gt; // &#x7ED1;&#x5B9A;title&#x5C5E;&#x6027;&#x4E3A;vue&#x7684;message
+
+ &lt;p v-if=&quot;seen&quot;&gt;&#x73B0;&#x5728;&#x4F60;&#x770B;&#x5230;&#x6211;&#x4E86;&lt;/p&gt; // &#x5982;&#x679C;vue data&#x4E2D;&#x7684;seen&#x4E3A;true&#x5219;&#x663E;&#x793A;&#xFF0C;false&#x5219;&#x9690;&#x85CF;
+
+ &lt;li v-for=&quot;todo in todos&quot;&gt; // &#x4F7F;&#x7528;vue&#x7684;todos&#x6570;&#x7EC4;&#x4E2D;&#x7684;text&#x4E3A;li&#x8D4B;&#x503C; 
+
+// js
+var app4 = new Vue({
+el: &apos;#app-4&apos;,
+data: {
+  todos: [
+  { text: &apos;&#x5B66;&#x4E60; JavaScript&apos; },
+  { text: &apos;&#x5B66;&#x4E60; Vue&apos; },
+  { text: &apos;&#x6574;&#x4E2A;&#x725B;&#x9879;&#x76EE;&apos; }
+  ]
+}
+})
+&lt;button v-on:click=&quot;reverseMessage&quot;&gt;&#x53CD;&#x8F6C;&#x6D88;&#x606F;&lt;/button&gt; // &#x70B9;&#x51FB;button&#x65F6;&#x89E6;&#x53D1;&#x4F7F;&#x7528;vue&#x4E2D;&#x7684;reverseMessage&#x65B9;&#x6CD5;
+</code></pre>
+<p><strong>&#x53CC;&#x5411;&#x7ED1;&#x5B9A;</strong></p>
+<pre><code>&lt;div id=&quot;app&quot;&gt;
+&lt;p&gt;{{message}}&lt;/p&gt;
+&lt;input v-on:input = &quot;inputDidChanged&quot; /&gt;
+&lt;/div&gt;
+
+methods: {
+  inputDidChanged: function(e) {
+    this.message = e.target.value;
+  }
+}
+&#x4F7F;&#x7528;vue&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#xFF1A;&lt;input v-model=&quot;message&quot; /&gt; &#x5373;&#x5F53;&#x8F93;&#x5165;&#x7684;input&#x7684;&#x503C;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x65F6;&#x4F1A;&#x5F71;&#x54CD;&#x5230;vue&#x7684;message&#x5C5E;&#x6027;
+</code></pre><p>&#x5BF9;&#x4E8E;&#x590D;&#x9009;&#x6846;checkbox&#x7684;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#xFF0C;&#x53EF;&#x4EE5;&#x7ED1;&#x5B9A;&#x5230;&#x4E00;&#x4E2A;&#x5E03;&#x5C14;&#x503C;&#x4E0A;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x628A;&#x591A;&#x4E2A;&#x7ED1;&#x5B9A;&#x5230;&#x540C;&#x4E00;&#x6570;&#x7EC4;&#x4E0A;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x5355;&#x4E2A;&#x590D;&#x9009;&#x6846;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">v-model</span>=<span class="hljs-string">&quot;checked&quot;</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">&quot;checkbox&quot;</span>&gt;</span>{{ checked }}<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x591A;&#x4E2A;&#x590D;&#x9009;&#x6846;&#xFF1A;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;runoob&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Runoob&quot;</span> <span class="hljs-attr">v-model</span>=<span class="hljs-string">&quot;checkedNames&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">&quot;runoob&quot;</span>&gt;</span>Runoob<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;google&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Google&quot;</span> <span class="hljs-attr">v-model</span>=<span class="hljs-string">&quot;checkedNames&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">&quot;google&quot;</span>&gt;</span>Google<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;taobao&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;Taobao&quot;</span> <span class="hljs-attr">v-model</span>=<span class="hljs-string">&quot;checkedNames&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">&quot;taobao&quot;</span>&gt;</span>taobao<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>&#x9009;&#x62E9;&#x7684;&#x503C;&#x4E3A;: {{ checkedNames }}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;../js/1.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> vm = <span class="hljs-keyword">new</span> Vue({
+    el: <span class="hljs-string">&apos;#app&apos;</span>,
+    data: {
+        checked: <span class="hljs-literal">false</span>,
+        checkedNames: []
+    },
+});
+</code></pre>
+<p><strong>&#x793A;&#x4F8B;</strong></p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;&#x5927;&#x5218;&#x5B66;&#x4E60;&lt;/title&gt;
+    &lt;script src=&quot;https://cdn.staticfile.org/vue/2.4.2/vue.min.js&quot;&gt;&lt;/script&gt;
+  &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/1.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;ul&gt;
+      &lt;todo-item 
+        v-for=&quot;item in groceryList&quot;
+        v-bind:todo=&quot;item&quot;
+        v-bind:key=&quot;item.id&quot;&gt;
+      &lt;/todo-item&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;script type=&quot;text/javascript&quot; src=&quot;../js/1.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+Vue.component(&apos;todo-item&apos;, {
+    props: [&apos;todo&apos;],
+    template: &apos;&lt;li&gt;{{ todo.text }}&lt;/li&gt;&apos;
+})
+
+var vm = new Vue({
+    el: &apos;#app&apos;,
+    data: {
+        groceryList: [
+            { id: 0, text: &apos;&#x852C;&#x83DC;&apos; },
+            { id: 1, text: &apos;&#x5976;&#x916A;&apos; },
+            { id: 2, text: &apos;&#x968F;&#x4FBF;&#x5176;&#x5B83;&#x4EC0;&#x4E48;&#x4EBA;&#x5403;&#x7684;&#x4E1C;&#x897F;&apos; }
+          ]
+    },
+});
+</code></pre><p><strong>&#x8868;&#x8FBE;&#x5F0F;</strong></p>
+<pre><code>&lt;p&gt;{{ ok ? &apos;YES&apos; : &apos;NO&apos; }}&lt;/p&gt;
+&lt;p&gt;{{ message.split(&apos;&apos;).reverse().join(&apos;&apos;) }}&lt;/p&gt;
+</code></pre><p><strong>&#x52A8;&#x6001;&#x53C2;&#x6570;</strong>
+&#x52A8;&#x6001;&#x53C2;&#x6570;&#x4F7F;&#x7528;&#x4E2D;&#x62EC;&#x53F7;<code>[]</code>, &#x6CE8;&#x610F;&#x4E0D;&#x53EF;&#x4F7F;&#x7528;&#x5927;&#x5199;&#x5B57;&#x6BCD;&#x3002;</p>
+<pre><code class="lang-javascript">&lt;a v-bind:[link]=<span class="hljs-string">&quot;url&quot;</span>&gt;&#x5FC5;&#x5E94;&lt;<span class="hljs-regexp">/a&gt;&lt;br /</span>&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">v-on:</span>[<span class="hljs-attr">eventName</span>]=<span class="hljs-string">&quot;doSomething&quot;</span>&gt;</span>Click here<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span> <span class="hljs-comment">// &#x6D4F;&#x89C8;&#x5668;&#x4F1A;&#x628A;eventName&#x53D8;&#x4E3A;eventname&#xFF0C;&#x56E0;&#x6B64;&#x52A8;&#x6001;&#x53C2;&#x6570;&#x6700;&#x597D;&#x4E0D;&#x8981;&#x51FA;&#x73B0;&#x5927;&#x5199;&#x5B57;&#x6BCD;</span>
+
+<span class="hljs-keyword">var</span> vm = <span class="hljs-keyword">new</span> Vue({
+    el: <span class="hljs-string">&apos;#app&apos;</span>,
+    data: {
+        url: <span class="hljs-string">&apos;http://www.bing.com&apos;</span>,
+        eventname: <span class="hljs-string">&apos;focus&apos;</span>,
+        link: <span class="hljs-string">&apos;href&apos;</span> <span class="hljs-comment">// &#x6CE8;&#x610F;&#x662F;&#x5C0F;&#x5199;</span>
+    },
+});
+</code></pre>
+<p><strong>&#x7F29;&#x5199;</strong></p>
+<pre><code>== v-bind &#x7F29;&#x5199;&#xFF1A;==
+
+&lt;!-- &#x5B8C;&#x6574;&#x8BED;&#x6CD5; --&gt;
+&lt;a v-bind:href=&quot;url&quot;&gt;...&lt;/a&gt;
+
+&lt;!-- &#x7F29;&#x5199; --&gt;
+&lt;a :href=&quot;url&quot;&gt;...&lt;/a&gt;
+
+== v-on &#x7F29;&#x5199;&#xFF1A;==
+&lt;!-- &#x5B8C;&#x6574;&#x8BED;&#x6CD5; --&gt;
+&lt;a v-on:click=&quot;doSomething&quot;&gt;...&lt;/a&gt;
+
+&lt;!-- &#x7F29;&#x5199; --&gt;
+&lt;a @click=&quot;doSomething&quot;&gt;...&lt;/a&gt;
+</code></pre><p><strong>&#x8BA1;&#x7B97;&#x5C5E;&#x6027;</strong></p>
+<pre><code>var vm = new Vue({
+    el: &apos;#app&apos;,
+    data: {
+        message: &apos;olleh&apos;,
+    },
+    computed: {
+        reversedMessage: function() {
+            return this.message.split(&apos;&apos;).reverse().join(&apos;&apos;); // &#x5982;&#x679C;message&#x6539;&#x53D8;&#xFF0C;&#x4F1A;&#x89E6;&#x53D1;reversedMessage&#x6539;&#x53D8;
+        }
+    },
+    methods: {
+
+    }
+});
+
+&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x9ED8;&#x8BA4;&#x53EA;&#x6709;getter, &#x4E5F;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;setter:
+var vm = new Vue({
+    el: &apos;#app&apos;,
+    data: {
+        firstName: &apos;da&apos;,
+        lastName: &apos;liu&apos;,
+    },
+    computed: {
+        fullName: {
+            get: function() {
+                // return firstName + &apos; &apos; + lastName; // &#x9519;&#x8BEF;&#xFF1A;firstName&#x548C;lastName&#x672A;&#x5B9A;&#x4E49;&#xFF0C;&#x8FD9;&#x91CC;firstName&#x548C;this.firstName&#x4E0D;&#x4E00;&#x6837;
+                return this.firstName + &apos; &apos; + this.lastName;
+            },
+            set: function(newValue) {
+                var names = newValue.split(&apos; &apos;);
+                // firstName = names[0]; &#x8FD9;&#x79CD;&#x5199;&#x6CD5;&#x4EE3;&#x8868;&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;local&#x53D8;&#x91CF;firstName&#x548C;this.firstName&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x4E1C;&#x897F;
+                this.firstName = names[0];
+                this.lastName = names[names.length - 1];
+            }
+        }
+    },
+    methods: {
+    }
+});
+</code></pre><p><strong>&#x4FA6;&#x542C;&#x5C5E;&#x6027;watch</strong></p>
+<pre><code>var vm = new Vue({
+    el: &apos;#app&apos;,
+    data: {
+        firstName: &apos;da&apos;,
+        lastName: &apos;liu&apos;,
+        fullName: &apos;da liu&apos;
+    },
+    watch: {
+      // &#x5F53;firstName&#x7684;&#x503C;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x65F6;&#xFF0C;&#x89E6;&#x53D1;
+        firstName: function(val) {
+            this.fullName = val + &apos; &apos; + this.lastName;
+        },
+        // &#x5F53;lastName&#x7684;&#x503C;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x65F6;&#xFF0C;&#x89E6;&#x53D1;
+        lastName: function(val) {
+            this.fullName = this.firstName + &apos; &apos; + val;
+        }
+    },
+    computed: {
+    },
+    methods: {
+    }
+});
+
+vue&#x4E0D;&#x5EFA;&#x8BAE;&#x591A;&#x7528;watch&#xFF0C;&#x4E0A;&#x9762;watch&#x8BA1;&#x7B97;fullName&#x51FD;&#x6570;&#x4F53;&#x4EE3;&#x7801;&#x91CD;&#x590D;&#xFF0C;&#x56E0;&#x6B64;vue&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#xFF1A;
+computed: {
+        fullName: function() {
+          // &#x540C;&#x6837;&#x53EF;&#x4EE5;&#x8FBE;&#x5230;&#x5F53;firstName&#x6216;lastName&#x53D1;&#x751F;&#x53D8;&#x5316;&#x65F6;&#xFF0C;&#x89E6;&#x53D1;fullName&#x53D1;&#x751F;&#x53D8;&#x5316;
+            return this.firstName + this.lastName;
+        }
+}
+</code></pre><p><strong>class&#x5C5E;&#x6027;&#x7ED1;&#x5B9A;</strong></p>
+<pre><code class="lang-css">&lt;div id=&quot;app&quot;&gt;
+  &lt;div v-bind:class=&quot;{active:isActive, &apos;text-danger&apos;:hasError}&quot;&gt;&lt;/div&gt;
+  &lt;!--&#x6CE8;&#x610F;&#x8FD9;&#x91CC;text-danger&#x4F7F;&#x7528;&apos;&apos;&#x62EC;&#x4E86;&#x8D77;&#x6765;&#xFF0C;&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x5BF9;&#x5E94;&#x7684;vue&#x4E2D;js&#x4E0D;&#x5141;&#x8BB8;&#x4EE5;&#x4E2D;&#x5212;&#x7EBF;&#x4F5C;&#x4E3A;&#x53D8;&#x91CF;key&#xFF0C;&#x56E0;&#x6B64;&#x4E60;&#x60EF;&#x628A;key&#x7528;&#x5F15;&#x53F7;&#x62EC;&#x8D77;&#x6765;--&gt;
+&lt;/div&gt;
+
+var vm = new Vue({
+    el: &apos;#app&apos;,
+    data: {
+        isActive: true,
+        hasError: true,
+    },
+    created: function() {
+    },
+    methods: {
+    }
+});
+
+&#x4EE5;&#x4E0A;&#x76F8;&#x5F53;&#x4E8E;&lt;div class=&quot;active text-danger&quot;&gt;&lt;/div&gt;
+
+
+&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x7ED1;&#x5B9A;&#x6570;&#x636E;&#x91CC;&#x7684;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;:
+&lt;div id=&quot;app&quot;&gt;
+  &lt;div v-bind:class=&quot;classObject&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+var vm = new Vue({
+    el: &apos;#app&apos;,
+    data: {
+        classObject: {
+            active: true,
+            &apos;text-danger&apos;: true, // js&#x4E0D;&#x5141;&#x8BB8;&#x4EE5;&#x4E2D;&#x5212;&#x7EBF;&#x4F5C;&#x4E3A;&#x53D8;&#x91CF;&#x540D;&#xFF0C;&#x56E0;&#x6B64;&#x8FD9;&#x91CC;&#x5FC5;&#x987B;&#x4F7F;&#x7528;&apos;&apos;&#x62EC;&#x8D77;&#x6765;
+        }
+    },
+    created: function() {
+    },
+    methods: {
+    }
+});
+
+
+&#x4E5F;&#x53EF;&#x4EE5;&#x7ED1;&#x5B9A;&#x8FD4;&#x56DE;&#x5BF9;&#x8C61;&#x7684;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x3002;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x5E38;&#x7528;&#x4E14;&#x5F3A;&#x5927;&#x7684;&#x6A21;&#x5F0F;&#xFF1A;
+// html
+&lt;div id=&quot;app&quot;&gt;
+  &lt;div v-bind:class=&quot;classObject&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+// css
+.base {
+    width: 100px;
+    height: 100px;
+}
+
+.active {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+.text-danger {
+    background: red;
+}
+
+// js
+var vm = new Vue({
+    el: &apos;#app&apos;,
+    data: {
+        isActive: true,
+        error: {
+            value: true,
+            type: &apos;fatal&apos;,
+        }
+    },
+    computed: {
+        classObject: function() {
+            return {
+                base: true,
+                active: this.isActive &amp;&amp; !this.error.value,
+                &apos;text-danger&apos;: this.error.value &amp;&amp; this.error.type === &apos;fatal&apos;,
+            }
+        }
+    },
+    methods: {
+    }
+});
+</code></pre>
+<p><strong>class&#x5C5E;&#x6027;&#x7ED1;&#x5B9A;&#x4E4B;&#x6570;&#x7EC4;&#x8BED;&#x6CD5;</strong></p>
+<pre><code>// html
+&lt;div id=&quot;app&quot;&gt;
+  &lt;div v-bind:class=&quot;[activeClass, errorClass]&quot;&gt;&lt;/div&gt;
+  &lt;!-- &#x8FD9;&#x76F8;&#x5F53;&#x4E8E;&#xFF1A;&lt;div class=&quot;active text-danger&quot;&gt;&lt;/div&gt; --&gt;
+&lt;/div&gt;
+
+// css
+.active {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+.text-danger {
+    background: red;
+}
+
+// js
+var vm = new Vue({
+    el: &apos;#app&apos;,
+    data: {
+        activeClass: &apos;active&apos;,
+        errorClass: &apos;text-danger&apos;,
+    },
+});
+</code></pre><p><strong>Vue.js style &#x5185;&#x8054;&#x6837;&#x5F0F;</strong></p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">v-bind:style</span>=<span class="hljs-string">&quot;{&apos;color&apos;: activeColor, &apos;fontSize&apos;: fontSize + &apos;px&apos;}&quot;</span>&gt;</span>&#x4F60;&#x597D;&#x4E2D;&#x56FD;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> vm = <span class="hljs-keyword">new</span> Vue({
+    el: <span class="hljs-string">&apos;#app&apos;</span>,
+    data: {
+        activeColor: <span class="hljs-string">&apos;red&apos;</span>, <span class="hljs-comment">// &#x8FD9;&#x91CC;&#x548C;css&#x4E0D;&#x4E00;&#x6837;&#xFF0C;red&#x5FC5;&#x987B;&#x4F7F;&#x7528;&#x5F15;&#x53F7;&#x62EC;&#x8D77;&#x6765;</span>
+        fontSize: <span class="hljs-number">60</span>,
+    },
+});
+</code></pre>
+<p><strong>Vue.js style&#x7ED1;&#x5B9A;&#x6837;&#x5F0F;&#x5BF9;&#x8C61;</strong></p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">v-bind:style</span>=<span class="hljs-string">&quot;styleObject&quot;</span>&gt;</span>&#x4F60;&#x597D;&#x4E2D;&#x56FD;<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> vm = <span class="hljs-keyword">new</span> Vue({
+    el: <span class="hljs-string">&apos;#app&apos;</span>,
+    data: {
+        styleObject: {
+            color: <span class="hljs-string">&apos;red&apos;</span>, <span class="hljs-comment">// &#x8FD9;&#x91CC;&#x548C;css&#x4E0D;&#x4E00;&#x6837;&#xFF0C;red&#x5FC5;&#x987B;&#x4F7F;&#x7528;&#x5F15;&#x53F7;&#x62EC;&#x8D77;&#x6765;</span>
+            fontSize: <span class="hljs-string">&apos;60px&apos;</span>,
+        }
+    },
+});
+</code></pre>
+<p>&#x6CE8;&#x610F;&#x4F7F;&#x7528;style&#x7ED1;&#x5B9A;&#x6837;&#x5F0F;&#x5BF9;&#x8C61;&#x548C;&#x4F7F;&#x7528;class&#x7ED1;&#x5B9A;&#x6837;&#x5F0F;&#x5BF9;&#x8C61;&#x7684;&#x533A;&#x522B;&#xFF0C;&#x4F7F;&#x7528;class&#x65F6;&#x6307;&#x5B9A;&#x7684;&#x662F;css&#x7684;&#x7C7B;&#xFF0C;<code>v-bind:class=&quot;styleObject&quot;</code>&#x6307;&#x5B9A;&#x7684;styleObject&#x662F;css&#x4E2D;&#x7684;<code>.styleObject</code>&#xFF0C;&#x800C;&#x4F7F;&#x7528;<code>v-bind:style=&quot;styleObject&quot;</code>&#x6307;&#x5B9A;&#x7684;styleObject&#x662F;vue&#x4E2D;data&#x4E2D;&#x7684;&#x6837;&#x5F0F;&#x5BF9;&#x8C61;&#x3002;
+&#x4F7F;&#x7528;vue.data&#x4E2D;&#x7684;&#x6837;&#x5F0F;&#x5BF9;&#x8C61;&#xFF0C;&#x5728;&#x4E66;&#x5199;&#x6837;&#x5F0F;&#x5BF9;&#x8C61;&#x65F6;&#x6709;&#x4E2A;&#x7F3A;&#x70B9;&#x662F;key&#x4E00;&#x822C;&#x8981;&#x7528;&#x5F15;&#x53F7;&#x62EC;&#x8D77;&#x6765;&#x8868;&#x793A;&#x5B83;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x3002;&#x548C;v-bind:class&#x7C7B;&#x4F3C;&#x7684;&#x65F6;&#xFF0C;v-bind:style&#x4E5F;&#x652F;&#x6301;&#x6570;&#x7EC4;&#xFF1A;<code>v-bind:style=&quot;[baseStyles, overridingStyles]&quot;</code></p>
+<p><strong>Vue.js&#x4E8B;&#x4EF6;&#x5904;&#x7406;&#x5668;</strong></p>
+<pre><code>&lt;div id=&quot;app&quot;&gt;
+  &lt;button v-on:click=&quot;counter += 1&quot;&gt;&#x589E;&#x52A0;1&lt;/button&gt;
+  &lt;p&gt;&#x8FD9;&#x4E2A;&#x6309;&#x94AE;&#x88AB;&#x70B9;&#x51FB;&#x4E86; {{ counter }} &#x6B21;&#x3002;&lt;/p&gt;
+&lt;/div&gt;
+</code></pre><pre><code class="lang-js"><span class="hljs-keyword">var</span> vm = <span class="hljs-keyword">new</span> Vue({
+    el: <span class="hljs-string">&apos;#app&apos;</span>,
+    data: {
+        counter: <span class="hljs-number">0</span>,
+    },
+});
+</code></pre>
+<p>&#x901A;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#x662F;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;js&#x65B9;&#x6CD5;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">v-on:click</span>=<span class="hljs-string">&quot;greet&quot;</span>&gt;</span>&#x70B9;&#x51FB;&#x6B22;&#x8FCE;<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> vm = <span class="hljs-keyword">new</span> Vue({
+    el: <span class="hljs-string">&apos;#app&apos;</span>,
+    data: {
+        counter: <span class="hljs-number">0</span>,
+    },
+    methods: {
+        greet: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+            alert(<span class="hljs-string">&apos;&#x6B22;&#x8FCE;&#x6B22;&#x8FCE;&#xFF01;&apos;</span>);
+        }
+    },
+});
+</code></pre>
+<p>&#x4E5F;&#x53EF;&#x4EE5;&#x8C03;&#x7528;js&#x65B9;&#x6CD5;&#x65F6;&#x4F20;&#x53C2;&#xFF1A;</p>
+<pre><code>&lt;button v-on:click=&quot;say(&apos;hi&apos;)&quot;&gt;Say hi&lt;/button&gt;
+
+methods: {
+  say: function (message) {
+    alert(message)
+  }
+}
+</code></pre><p>&#x5F53;&#x7ED1;&#x5B9A; v-on:click &#x4E8B;&#x4EF6;&#x65F6;&#xFF0C;&#x4F20;&#x5165;&#x53C2;&#x6570;&#x540C;&#x65F6;&#x4E5F;&#x53EF;&#x4EE5;&#x4F20;&#x5165;&#x5F53;&#x524D;event&#xFF0C;&#x7531;event.currentTarget&#x53EF;&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x5143;&#x7D20;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;active text-danger&quot;</span> <span class="hljs-attr">v-on:click</span>=<span class="hljs-string">&quot;show(&apos;Hello&apos;, $event)&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>&#x6D4B;&#x8BD5;&#x6587;&#x5B57;<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> vm = <span class="hljs-keyword">new</span> Vue({
+    el: <span class="hljs-string">&apos;#app&apos;</span>,
+    methods: {
+        show: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">message, e</span>) </span>{
+            <span class="hljs-keyword">if</span> (e.target === e.currentTarget) {
+                alert(<span class="hljs-string">&apos;equal&apos;</span>); <span class="hljs-comment">// did print</span>
+            }
+            <span class="hljs-built_in">console</span>.log(e.target); <span class="hljs-comment">// &lt;div ....&gt;&lt;/div&gt;</span>
+            <span class="hljs-built_in">console</span>.log(e.target.id); <span class="hljs-comment">//</span>
+            <span class="hljs-built_in">console</span>.log(e.target.tagName); <span class="hljs-comment">// DIV</span>
+            <span class="hljs-built_in">console</span>.log(e.target.nodeName); <span class="hljs-comment">// DIV</span>
+            <span class="hljs-built_in">console</span>.log(e.target.classList); <span class="hljs-comment">// [&quot;active&quot;, &quot;text-danger&quot;, value: &quot;active text-danger&quot;]</span>
+            <span class="hljs-built_in">console</span>.log(e.target.className); <span class="hljs-comment">// active text-danger</span>
+            <span class="hljs-built_in">console</span>.log(e.target.innerHTML); <span class="hljs-comment">// &lt;span&gt;&#x6D4B;&#x8BD5;&#x6587;&#x5B57;&lt;/span&gt;</span>
+            <span class="hljs-built_in">console</span>.log(e.target.innerText); <span class="hljs-comment">// &#x6D4B;&#x8BD5;&#x6587;&#x5B57;</span>
+        }
+    },
+});
+</code></pre>
+<p><strong>Vue.js&#x4E8B;&#x4EF6;&#x4FEE;&#x9970;&#x7B26;</strong>
+Vue.js&#x901A;&#x8FC7;&#x7531;&#x70B9;(.)&#x8868;&#x793A;&#x7684;&#x6307;&#x4EE4;&#x540E;&#x7F00;&#x6765;&#x8C03;&#x7528;&#x4FEE;&#x9970;&#x7B26;&#x3002;</p>
+<pre><code class="lang-js">&lt;!-- &#x963B;&#x6B62;&#x5355;&#x51FB;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1; --&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">v-on:click.stop</span>=<span class="hljs-string">&quot;doThis&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span>
+&lt;!-- &#x63D0;&#x4EA4;&#x4E8B;&#x4EF6;&#x4E0D;&#x518D;&#x91CD;&#x8F7D;&#x9875;&#x9762; --&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">v-on:submit.prevent</span>=<span class="hljs-string">&quot;onSubmit&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span></span>
+&lt;!-- &#x4FEE;&#x9970;&#x7B26;&#x53EF;&#x4EE5;&#x4E32;&#x8054;  --&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">v-on:click.stop.prevent</span>=<span class="hljs-string">&quot;doThat&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span>
+&lt;!-- &#x53EA;&#x6709;&#x4FEE;&#x9970;&#x7B26; --&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">v-on:submit.prevent</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span></span>
+&lt;!-- &#x6DFB;&#x52A0;&#x4E8B;&#x4EF6;&#x4FA6;&#x542C;&#x5668;&#x65F6;&#x4F7F;&#x7528;&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#x6A21;&#x5F0F; --&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">v-on:click.capture</span>=<span class="hljs-string">&quot;doThis&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+&lt;!-- &#x53EA;&#x5F53;&#x4E8B;&#x4EF6;&#x5728;&#x8BE5;&#x5143;&#x7D20;&#x672C;&#x8EAB;&#xFF08;&#x800C;&#x4E0D;&#x662F;&#x5B50;&#x5143;&#x7D20;&#xFF09;&#x89E6;&#x53D1;&#x65F6;&#x89E6;&#x53D1;&#x56DE;&#x8C03; --&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">v-on:click.self</span>=<span class="hljs-string">&quot;doThat&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+&lt;!-- click &#x4E8B;&#x4EF6;&#x53EA;&#x80FD;&#x70B9;&#x51FB;&#x4E00;&#x6B21;&#xFF0C;<span class="hljs-number">2.1</span><span class="hljs-number">.4</span>&#x7248;&#x672C;&#x65B0;&#x589E; --&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">v-on:click.once</span>=<span class="hljs-string">&quot;doThis&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span>
+</code></pre>
+<p><strong>&#x6309;&#x952E;&#x4FEE;&#x9970;&#x7B26;</strong></p>
+<p>Vue &#x5141;&#x8BB8;&#x4E3A; v-on &#x5728;&#x76D1;&#x542C;&#x952E;&#x76D8;&#x4E8B;&#x4EF6;&#x65F6;&#x6DFB;&#x52A0;&#x6309;&#x952E;&#x4FEE;&#x9970;&#x7B26;&#xFF1A;</p>
+<pre><code class="lang-js">&lt;!-- &#x53EA;&#x6709;&#x5728; keyCode &#x662F; <span class="hljs-number">13</span> &#x65F6;&#x8C03;&#x7528; vm.submit() --&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">v-on:keyup.13</span>=<span class="hljs-string">&quot;submit&quot;</span>&gt;</span>
+</span></code></pre>
+<p>&#x8BB0;&#x4F4F;&#x6240;&#x6709;&#x7684; keyCode &#x6BD4;&#x8F83;&#x56F0;&#x96BE;&#xFF0C;&#x6240;&#x4EE5; Vue &#x4E3A;&#x6700;&#x5E38;&#x7528;&#x7684;&#x6309;&#x952E;&#x63D0;&#x4F9B;&#x4E86;&#x522B;&#x540D;&#xFF1A;</p>
+<pre><code class="lang-js">&lt;!-- &#x540C;&#x4E0A; --&gt;
+&lt;input v-on:keyup.enter=&quot;submit&quot;&gt;
+&lt;!-- &#x7F29;&#x5199;&#x8BED;&#x6CD5; --&gt;
+&lt;input @keyup.enter=&quot;submit&quot;&gt;
+</code></pre>
+<p>&#x5168;&#x90E8;&#x7684;&#x6309;&#x952E;&#x522B;&#x540D;&#xFF1A;</p>
+<pre><code>.enter
+.tab
+.delete (&#x6355;&#x83B7; &quot;&#x5220;&#x9664;&quot; &#x548C; &quot;&#x9000;&#x683C;&quot; &#x952E;)
+.esc
+.space
+.up
+.down
+.left
+.right
+.ctrl
+.alt
+.shift
+.meta
+</code></pre><p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-js">&lt;p&gt;&lt;!-- Alt + C --&gt;
+&lt;input @keyup.alt.67=&quot;clear&quot;&gt;
+&lt;!-- Ctrl + Click --&gt;
+&lt;div @click.ctrl=&quot;doSomething&quot;&gt;Do something&lt;/div&gt;
+</code></pre>
+<p><strong>Vue.js &#x8868;&#x5355;&#x4FEE;&#x9970;&#x7B26;</strong></p>
+<p><code>.lazy</code></p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- &#x5728; &quot;change&quot; &#x800C;&#x4E0D;&#x662F; &quot;input&quot; &#x4E8B;&#x4EF6;&#x4E2D;&#x66F4;&#x65B0; 
+&#x5373;&#x8F93;&#x5165;&#x65F6;msg&#x4E0D;&#x53D1;&#x751F;&#x53D8;&#x5316;&#xFF0C;&#x9F20;&#x6807;&#x79BB;&#x5F00;&#x8F93;&#x5165;&#x6846;&#x65F6;&#xFF0C;&#x89E6;&#x53D1;change&#x65B9;&#x6CD5;&#xFF0C;&#x66F4;&#x6539;msg
+--&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">v-model.lazy</span>=<span class="hljs-string">&quot;msg&quot;</span> &gt;</span>
+</code></pre>
+<p><code>.number</code>
+&#x5982;&#x679C;&#x60F3;&#x81EA;&#x52A8;&#x5C06;&#x7528;&#x6237;&#x7684;&#x8F93;&#x5165;&#x503C;&#x8F6C;&#x4E3A; Number &#x7C7B;&#x578B;&#xFF08;&#x5982;&#x679C;&#x539F;&#x503C;&#x7684;&#x8F6C;&#x6362;&#x7ED3;&#x679C;&#x4E3A; NaN &#x5219;&#x8FD4;&#x56DE;&#x539F;&#x503C;), &#x5373;&#x53EA;&#x5141;&#x8BB8;&#x8F93;&#x5165;Number&#x7C7B;&#x578B;&#x7684;&#x503C;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">v-model.number</span>=<span class="hljs-string">&quot;age&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;number&quot;</span>&gt;</span>
+</code></pre>
+<p><code>.trim</code>
+&#x5982;&#x679C;&#x8981;&#x81EA;&#x52A8;&#x8FC7;&#x6EE4;&#x7528;&#x6237;&#x8F93;&#x5165;&#x7684;&#x9996;&#x5C3E;&#x7A7A;&#x683C;&#xFF0C;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0; trim &#x4FEE;&#x9970;&#x7B26;&#x5230; v-model &#x4E0A;&#x8FC7;&#x6EE4;&#x8F93;&#x5165;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">v-model.trim</span>=<span class="hljs-string">&quot;msg&quot;</span>&gt;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Vue">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="组件.html" class="navigation navigation-next " aria-label="Next page: 组件">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"常用语法","level":"1.7.1","depth":2,"next":{"title":"组件","level":"1.7.2","depth":2,"path":"Vue/组件.md","ref":"Vue/组件.md","articles":[]},"previous":{"title":"Vue","level":"1.7","depth":1,"path":"Vue/README.md","ref":"Vue/README.md","articles":[{"title":"常用语法","level":"1.7.1","depth":2,"path":"Vue/常用语法.md","ref":"Vue/常用语法.md","articles":[]},{"title":"组件","level":"1.7.2","depth":2,"path":"Vue/组件.md","ref":"Vue/组件.md","articles":[]},{"title":"自定义指令","level":"1.7.3","depth":2,"path":"Vue/自定义指令.md","ref":"Vue/自定义指令.md","articles":[]},{"title":"路由","level":"1.7.4","depth":2,"path":"Vue/路由.md","ref":"Vue/路由.md","articles":[]},{"title":"脚手架","level":"1.7.5","depth":2,"path":"Vue/脚手架.md","ref":"Vue/脚手架.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Vue/常用语法.md","mtime":"2019-09-18T02:08:24.048Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-18T02:03:22.298Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

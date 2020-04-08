@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+
+    <body>
+        <script type="text/javascript">
+            function method(){
+                add(1, 2);  // 可以执行
+            }
+            
+            // 使用匿名函数表达式时，函数的调用语句，必须放在函数声明语句之后
+            // add(3,4);  不能执行
+              
+            var add = function(num1, num2) {
+                var num = num1 + num2;
+                console.log(num);
+            }
+        </script>
+        <button id="btn" onclick="method()">匿名函数</button>
+    </body>
+
+</html>
